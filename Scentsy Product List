@@ -1,0 +1,18 @@
+CREATE TABLE Scentsy_Product_List (id INTEGER PRIMARY KEY, Catagory TEXT, Scent TEXT, Price REAL, Quantity INTEGER);
+INSERT INTO Scentsy_Product_List VALUES (1, "Scentsy Bar", "Apple Cherry Strudel", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (2, "Scentsy Bar", "Baked Apple Pie", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (3, "Scentsy Bar","Blueberry Cheesecake", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (4, "Scentsy Bar","Cinnamon Buttercream", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (5, "Scentsy Bar","Clementine Cupcake", 6.00, 12);
+INSERT INTO Scentsy_Product_List VALUES (6, "Scentsy Bar","CranApple Crumble", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (7, "Scentsy Bar", "Graham Cracker Crunch", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (8, "Scentsy Bar", "Hug in a Mug", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (9, "Scentsy Bar", "Pumpkin Roll", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (10, "Scentsy Bar", "Salted Caramel Toffee", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (11, "Scentsy Bar", "Scary Good", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (12, "Scentsy Bar", "Sugar Cookie", 6.00, 6);
+INSERT INTO Scentsy_Product_List VALUES (13, "Scentsy Bar","Vanilla Bean Buttercream", 6.00, 3);
+INSERT INTO Scentsy_Product_List VALUES (14, "Scentsy Bar","Vanilla Cinnamon Maple", 6.00, 0);
+INSERT INTO Scentsy_Product_List VALUES (15, "Scentsy Bar", "Luna", 6.00, 8);
+SELECT * FROM Scentsy_Product_List;
+SELECT * FROM Scentsy_Product_List WHERE Quantity> 0 ORDER BY Quantity;
