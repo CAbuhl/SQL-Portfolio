@@ -1,2 +1,3 @@
-# SQL-Portfolio
-Portfolio of various SQL Projects
+# Cailey Abuhl's SQL-Portfolio
+
+## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out via email if you have any questions: caileyabuhl@gmail.com
